@@ -12,6 +12,8 @@ import Counter from './components/Counter'
 import { Parent as Par } from './components/Parent'
 import UseMemoSample from './components/UseMemoSample'
 import Clock from './components/Clock'
+import ImageUploader from './components/ImageUploader'
+import UseInperativeHandle from './components/UseImperativeHandle.tsx'
 
 const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement)
 root.render(
@@ -25,6 +27,8 @@ root.render(
     <Par />
     <UseMemoSample />
     <Clock />
+    <ImageUploader />
+    <UseInperativeHandle />
   </>
 )
 
