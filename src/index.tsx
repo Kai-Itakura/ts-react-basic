@@ -11,6 +11,7 @@ import Page from './components/ContextSample'
 import Counter from './components/Counter'
 import { Parent as Par } from './components/Parent'
 import UseMemoSample from './components/UseMemoSample'
+import Clock from './components/Clock'
 
 const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement)
 root.render(
@@ -23,6 +24,7 @@ root.render(
     <Counter initialValue={1} />
     <Par />
     <UseMemoSample />
+    <Clock />
   </>
 )
 
