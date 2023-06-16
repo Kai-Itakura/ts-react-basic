@@ -14,6 +14,7 @@ import UseMemoSample from './components/UseMemoSample'
 import Clock from './components/Clock'
 import ImageUploader from './components/ImageUploader'
 import UseImperativeHandle from './components/UseImperativeHandle.tsx'
+import Input from './components/Input'
 
 const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement)
 root.render(
@@ -29,6 +30,7 @@ root.render(
     <Clock />
     <ImageUploader />
     <UseImperativeHandle />
+    <Input />
   </>
 )
 
